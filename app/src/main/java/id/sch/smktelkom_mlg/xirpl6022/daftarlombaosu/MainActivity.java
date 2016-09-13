@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         if (hasilMod.length() == startlen) hasilMod += "Tidak ada pada Pilihan";
         MHasil.setText(hasilMod);
 
-        AHasil
+        AHasil.setText("Asal Kota: " + spAsal.getSelectedItem());
     }
 
 }
